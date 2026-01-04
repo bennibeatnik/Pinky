@@ -1,0 +1,10 @@
+name: Pinky
+description: A Stash Material Design 3 Modern Dark Theme
+version: 0.1
+ui:
+  css:
+    - Pinky.css
+  
+  javascript:
+    - Pinky.js
+    - PinkyEffects.js
