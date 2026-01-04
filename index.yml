@@ -1,0 +1,22 @@
+name: Pinky Theme Repository
+description: Bubbly glassmorphism themes for Stash
+url: https://github.com/YOUR-USERNAME/stash-pinky-theme
+
+packages:
+  - id: pinky
+    name: Pinky - Bubbly Glassmorphism Theme
+    version: 0.1.0
+    date: 2024-01-15
+    path: Pinky.yml
+    metadata:
+      description: A super cute, reactive Material Design 3 theme with glass effects and 9 color variants
+      author: YOUR-USERNAME
+      homepage: https://github.com/YOUR-USERNAME/stash-pinky-theme
+    ui:
+      css:
+        - Pinky.css
+      javascript:
+        - Pinky.js
+        - PinkyEffects.js
+    requires:
+      - stash: ">=0.20.0"

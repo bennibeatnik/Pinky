@@ -1,10 +1,16 @@
 name: Pinky
-description: A Stash Material Design 3 Modern Dark Theme
-version: 0.1
+version: 0.1.0
+date: 2024-01-15
+description: A super cute, reactive Material Design 3 theme with glass effects and 9 color variants
+url: https://github.com/YOUR-USERNAME/stash-pinky-theme
+author: YOUR-USERNAME
+
 ui:
   css:
     - Pinky.css
-  
   javascript:
     - Pinky.js
     - PinkyEffects.js
+
+requires:
+  - stash: ">=0.20.0"
